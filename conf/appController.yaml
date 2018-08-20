@@ -1,0 +1,29 @@
+device_type: android
+tester:
+  resetKeyboard: true
+#  appActivity: com.tencent.mobileqq.activity.SplashActivity
+#  appPackage: com.tencent.mobileqq
+  appPackage: com.android.browser
+  appActivity: .BrowserActivity
+  unicodeKeyboard: true
+  noReset: true
+devices:
+  android:
+    - port: 9009
+      platformName: Android
+      udid: emulator-5554
+      platformVersion: 5.1.1
+      name: 雷电a
+      ip: 127.0.0.2
+      deviceName: emulator-5554
+
+#    - port: 8080
+#      platformName: Android
+#      udid: xxxx
+#      platformVersion: xxxxx
+#      name: xxxx
+#      ip: xxxx
+#      deviceName: xxxxx
+
+  ios:
+    - port: 9090
