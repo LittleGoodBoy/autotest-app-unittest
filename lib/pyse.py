@@ -11,19 +11,8 @@ from selenium.webdriver.support.select import Select
     基于selenium二次封装
 '''
 class Pyse(object):
-    '''
-        Pyse framework for the main class, the original
-    selenium provided by the method of the two packaging,
-    making it easier to use.
-    '''
 
     def __init__(self, browser='ff'):
-        '''
-        Run class initialization method, the default is proper
-        to drive the Firefox browser. Of course, you can also
-        pass parameter for other browser, Chrome browser for the "Chrome",
-        the Internet Explorer browser for "internet explorer" or "ie".
-        '''
         if browser == "firefox" or browser == "ff":
             driver = webdriver.Firefox()
         elif browser == "chrome":

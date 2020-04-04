@@ -1,4 +1,3 @@
-# case 基于什么? unittest
 import unittest
 # 还要用到page
 from page.page import Page
